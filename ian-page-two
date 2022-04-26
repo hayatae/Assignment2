@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Ian's Dumpster Fire of a Page; Part Deux</title>
+  <link rel="stylesheet" href="main.css" type="text/css" />
+</head>
+
+<body>
+  <div class="centered-content">
+    <h1>Metal Gear Plot</h1>
+    <h3 style="margin-bottom: 0;">Nanomachines, Son!</h3>
+    <div>
+      <ol>
+        <li>Big Boss wasn't in Afghanistan cause that was the medic who got plastic surgery and smoke too much time
+          travel weed</li>
+        <li>Snake and Liquid are clones of Big Boss</li>
+        <li>Solidus is the first clone of Big Boss but didn't get the super growth juice</li>
+        <li>Raiden kills Soldius with a ninja sword atop Otter Haven in New York</li>
+        <li>Raiden and Vamp do a dance with the cow robots in the Middle East</li>
+        <li>Snake gets microwaved and has a big sad</li>
+        <li>Norman Reedus is the baby, brought to you by Monster Energy</li>
+      </ol>
+    </div>
+    <div>
+      <a href="index.html">Return Home, Please!</a>
+    </div>
+  </div>
+</body>
+
+</html>
