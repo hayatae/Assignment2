@@ -11,5 +11,6 @@ For this assignment, you are going to create a new web page to add to an existin
 6. Edit the existing `index.html` page and add a link to your new page!
 7. Save all files and try it out by opening the `index.html` page in your browser. You should be able to click your link to go to your page. You could also add a link on your page to go back to the home page like `gale-page.html` has.
 8. Commit your changes to your branch and push the changes. Don't forget to write a good commit message!
-9. Go back to the original repository on GitHub in hayatae's account and click on the `Pull requests` tab: `https://github.com/hayatae/Assignment2/pulls`
-10. Follow the prompts on screen to create a new pull request from your branch in your fork of the repository to my main repository.
+9. Go to GitHub and open **your** fork of the repository. Click on the `Pull requests` tab. You should see an orange banner at the top noting that your branch had recent pushes and a green button for `Compare & pull request`. Click this button. You should see that it's prompting you to create a pull request for merging from your branch in your fork into the main branch of the base repository in my account.
+10. Feel free to enter a comment or leave blank and hit the green `Create pull request` button.
+11. Congratulations! You've made your first pull request! We'll review and merge these pull requests in the next class and review this process.
