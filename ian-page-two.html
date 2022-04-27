@@ -5,38 +5,85 @@
   <title>Ian's Dumpster Fire of a Page; Part Deux</title>
   <link rel="stylesheet" href="main.css" type="text/css" />
 </head>
+<style>
+  .container {
+    position: relative;
+    width: 100%;
+  }
+
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+  }
+
+  .container:hover .image {
+    opacity: 0.3;
+  }
+
+  .container:hover .middle {
+    opacity: 1;
+  }
+
+  .text {
+    background-color: #000000;
+    color: white;
+    font-size: 15px;
+    padding: 16px 32px;
+  }
+</style>
+</head>
 
 <body>
+
   <div class="centered-content">
     <h1>Metal Gear Plot</h1>
     <h3 style="margin-bottom: 0;">Nanomachines, Son!</h3>
-    <div>
-      <ol>
-        <li>Nakey Snakey bebops through Russia a few times and encounters a catboy, dr bees, a homeless man, a scooby
-          doo space man, a pensioner, and a discord admin all to dunk on mom </li>
-        <li>Big Boss hangs out in Latin America, goes Portable, and then changes voice actors</li>
-        <li>Vacation to Gitmo turns out to be real short, rainy, and dissapointing for the player base</li>
-        <li>Big Boss didn't actually got to Afghanistan cause that was the medic who got plastic surgery and smoke too
-          much time travel weed, but was in Alaska the whole time I guess</li>
-        <li>Snake and Liquid yell one anothers names a lot while it snows, just like one of my J'Paneese animes</li>
-        <li>Snake pays close attention to butss, puts controller into Slot 2, and makes luv blossom on the battlefield
-        </li>
-        <li>Solidus then enters the picture as DocOc as the first clone of Big Boss but didn't get the super growth
-          juice</li>
-        <li>Not Hard Cobra shows up and kills Soldius with a ninja sword atop Outer Haven in New York cause Kurt Russell
-          drives a semi truck later in life
-        </li>
-        <li>Cyberninja with heels ^TM and Vamp do a dance with the cow robots in the Middle East, making it really gay
-        </li>
-        <li>Retirement Snake gets microwaved and has a big sad</li>
-        <li>Snake takes drugs and uses his wrist dealer to make the rest of his decisions for the rest of his life I
-          guess</li>
-      </ol>
+
+    <div class="container">
+      <img src="https://i.kym-cdn.com/photos/images/facebook/001/022/076/4ec.png" alt="Master Miller" class="image"
+        style="width:100%">
+      <div class="middle">
+        <div class="text">
+          <li>Nakey Snakey bebops through Russia a few times and encounters a catboy, dr bees, a homeless man, a scooby
+            doo space man, a pensioner, and a discord admin all to dunk on mom </li>
+          <li>Big Boss hangs out in Latin America, goes Portable, and then changes voice actors</li>
+          <li>Vacation to Gitmo turns out to be real short, rainy, and dissapointing for the player base</li>
+          <li>Big Boss didn't actually got to Afghanistan cause that was the medic who got plastic surgery and smoke too
+            much time travel weed, but was in Alaska the whole time I guess</li>
+          <li>Snake and Liquid yell one anothers names a lot while it snows, just like one of my J'Paneese animes</li>
+          <li>Snake pays close attention to butss, puts controller into Slot 2, and makes luv blossom on the battlefield
+          </li>
+          <li>Solidus then enters the picture as DocOc as the first clone of Big Boss but didn't get the super growth
+            juice</li>
+          <li>Not Hard Cobra shows up and kills Soldius with a ninja sword atop Outer Haven in New York cause Kurt
+            Russell drives a semi truck later in life</li>
+          <li>Cyberninja with heels ^TM and Vamp do a dance with the cow robots in the Middle East, making it really gay
+          </li>
+          <li>Retirement Snake gets microwaved and has a big sad</li>
+          <li>Snake takes drugs and uses his wrist dealer to make the rest of his decisions for the rest of his life I
+            guess</li>
+        </div>
+      </div>
     </div>
+
     <div>
       <a href="index.html">Return Home, Please!</a>
     </div>
-  </div>
+
 </body>
 
 </html>
