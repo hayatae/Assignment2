@@ -7,3 +7,34 @@
 ul {
   padding: 0;
 }
+
+.red {
+  color: red;
+}
+
+.green {
+  color: green;
+}
+
+.blue {
+  color: blue;
+}
+
+.purple {
+  color: purple;
+}
+
+html {
+  background: linear-gradient(green, purple) no-repeat;
+  height: 100%;
+}
+
+@keyframes blink {
+  to {
+    visibility: hidden;
+  }
+}
+
+.blink {
+  animation: blink 1s steps(5, start) infinite;
+}
